@@ -1,0 +1,70 @@
+.erros{
+	color: red;
+	padding-left: 10px;
+}
+/*Sección de PHP*/
+.comentario{
+	color: #FF8000;
+}
+.comillas{
+	color: #DD0000;
+}
+.etiphp{
+	color: #DD0000;
+}
+.reservada{
+	color: #007700;
+}
+.simbolos{
+	//color: #22FB12;
+	color: #007700;
+}
+.variable{
+	color: #0000BB;
+}
+/*Sección de HTML*/
+.reservadahtml{
+	color: #FF8000;
+}
+.comillashtml{
+	color: #8000FF;
+}
+.comentariosis{
+	color: #5555ff;
+}
+.etiquetahtml{
+	color: #0000FF;
+}
+.comentariohtml{
+	color: #007700;
+}
+
+/*Sección de JavaScript*/
+.etiquetaJS{
+	//color: #22FB12;
+	color: #151515;
+}
+.comentariosimpleJs{
+	color: #6E6E6E;
+}
+.comentariodobleJs{
+	color: #6E6E6E;
+}
+.reservadaJSc{
+	color: #007700;
+}
+.reservadaJS{
+	color: #00BFFF;
+}
+.simbolosJS{
+	color: #FF4000;
+}
+.comillasJS{
+	color: #E7CA0C;
+}
+.defaultJS{
+	color: #151515;
+}
+.default{
+	color: #1C18F0;
+}

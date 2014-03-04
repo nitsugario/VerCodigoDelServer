@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1, maximum-scale=1"/>
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <!--<script type="text/javascript" src="../js/jquery/jquery-1.11.0.js"></script>-->
+        <script type="text/javascript" src="vista/js/core.js"></script>
+        <link rel="stylesheet" type="text/css" href="vista/css/core.css">
+        <link rel="stylesheet" type="text/css" href="vista/css/codigo.css">
+        <title>Mostrar el código de un directorio.</title>
+    </head>
+    <body>
+		<main>
+			<header>
+				<div id="centerheader">
+					<div id="logo01">
+						<img src="vista/imagenes/logo.png" alt="Nitsugario" height="70" width="200"> 
+					</div>
+					<div id="logo02"><h2>MOSTRAR EL CÓDIGO  PHP,HTML Y JAVASCRIP DE UN DIRECTORIO.</h2></div>
+				</div>
+			</header><!--Encabezado-->
+			<section>
+				<div id="menu">
+					<aside>
+						<input id="buscar" type="text">
+						<input type="button" id="cargarDir" value="Desplegar">
+					</aside>
+					<div id="arbol">
+						<nav id="MenuArbol" style="overflow: scroll; width: 100%; height: 100%;">
+						</nav>
+					</div>
+				</div>
+				<article>
+					<div id="scrolldecaja" style="overflow: scroll; width: 99%; height: 95%;">
+						<code id="codigo"><h5>Seleccione el archivo para mostrarlo.</h5></code>
+					</div>
+				</article>
+			</section><!--Cuerpo-->
+			<footer><div id="copyr">&copy; 2014 Nitsugario.com | nitsugario@gmail.com</div></footer><!--Pie de página-->
+		</main>
+    </body>
+</html>

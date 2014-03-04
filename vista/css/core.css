@@ -1,0 +1,191 @@
+body{
+        height:auto;
+        width: 100%;
+}
+main{
+	margin-left:auto;
+	margin-right:auto;
+	width:95%;
+	height:auto;
+}
+header{
+	height:70px;
+	width:100%;
+	border:solid #006282;
+	border-bottom: 0px;
+	background-color: #006282;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	padding-top: 1px;
+}
+header #centerheader{
+	margin-left:auto;
+	margin-right:auto;
+	width: 98.5%;
+	height: 67px;
+	margin-top: 3px;
+}
+#centerheader div{
+	width: 19.6%;
+	height: 55px;
+	margin: 0 auto;
+	padding: 0;
+	display: inline-block;
+	vertical-align:middle;
+}
+#centerheader #logo01{
+	height: 67px;
+}
+#centerheader #logo02{
+	padding-top: 12px;
+	text-align: center;
+	width:79%;
+}
+footer{
+	background-color: #006282;
+	border:solid #006282;
+	border-top: 0px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	height:55px;
+	width:100%;
+}
+#copyr{
+	color: white;
+	width:98%;
+	text-align: right;
+	padding-top: 5px;
+}
+section{
+	background-color: #FAFBFD;
+	border:solid #006282;
+	margin: 0 auto;
+	width: 100%;
+	height: 520px;
+}
+#menu,article{
+	width:39%;
+	display: inline-block;
+	vertical-align: top;
+}
+article{
+	background-color: #FAFBFD;
+	height:520px;
+	width: 59%;
+}
+#menu{
+	color: white;
+	font-size: 14px;
+	background-color: #047BA3;
+	padding-top: 5px;
+	height:515px;
+}
+aside{
+	height:40px;
+	width:90%;
+}
+#buscar{
+	border-radius: 10px;
+	border: solid #006282;
+	background: #E8EBEF url(../imagenes/lupa.png) no-repeat left center;
+	padding-left: 24px;
+	height:24px;
+	width: 85%
+}	
+#arbol{
+	height:455px;
+	width:95%;
+}
+nav{
+	padding-left: 25px;
+	padding-top:  20px;
+}
+/*sección de para el árbol del directorio*/
+#CarpetaTree{
+	color: #fff;
+	font-size: 14px;
+}
+.subcarpetas{
+	list-style-image: url(../imagenes/folderAmariCerrado.gif);
+}
+.documento{
+	list-style-image: url(../imagenes/hoja.gif);
+}
+.documento:hover{
+	color: #FC5656;
+}
+
+.subcarpetas li ul.subcarpeta{
+	visibility: hidden;
+	display: none;
+}
+
+.subcarpetas li:hover ul.subcarpeta{
+	visibility: visible;
+	display: block;
+}
+.subcarpetas li.subcarpetas:hover{
+	list-style-image: url(../imagenes/folderAmariAbier.gif);
+	cursor: pointer;
+}
+
+.subcarpetas li:hover ul.subcarpeta li.subcarpetas li{
+	visibility: hidden;
+	display: none;
+	padding-left: 25px;
+}
+.subcarpetas li ul.subcarpeta li.subcarpetas:hover li{
+	visibility: visible;
+	display: block;
+}
+.subcarpetas li ul.subcarpeta li.subcarpetas li.subcarpetas li{
+	visibility: hidden;
+	display: none;
+}	
+
+.subcarpetas li ul.subcarpeta li.subcarpetas li.subcarpetas:hover li{
+	visibility: visible;
+	display: block;
+}
+
+.subcarpetas li ul.subcarpeta li.subcarpetas li.subcarpetas li.subcarpetas li{
+	visibility: hidden;
+	display: none;
+}
+.subcarpetas li ul.subcarpeta li.subcarpetas li.subcarpetas li.subcarpetas:hover li{
+	visibility: visible;
+	display: block;
+}
+.subcarpetas li ul.subcarpeta li.subcarpetas li.subcarpetas li.subcarpetas li.subcarpetas li{
+	visibility: hidden;
+	display: none;
+}
+.subcarpetas li ul.subcarpeta li.subcarpetas li.subcarpetas li.subcarpetas li.subcarpetas:hover li{
+	visibility: visible;
+	display: block;
+}
+.subcarpetas li ul.subcarpeta li.subcarpetas li.subcarpetas li.subcarpetas li.subcarpetas li.subcarpetas li{
+	visibility: hidden;
+	display: none;
+}
+.subcarpetas li ul.subcarpeta li.subcarpetas li.subcarpetas li.subcarpetas li.subcarpetas li.subcarpetas:hover li{
+	visibility: visible;
+	display: block;
+}
+.subcarpetas li ul.subcarpeta li.subcarpetas li.subcarpetas li.subcarpetas li.subcarpetas li.subcarpetas li.subcarpetas li{
+	visibility: hidden;
+	display: none;
+}
+.subcarpetas li ul.subcarpeta li.subcarpetas li.subcarpetas li.subcarpetas li.subcarpetas li.subcarpetas li.subcarpetas:hover li{
+	visibility: visible;
+	display: block;
+}
+.subcarpetas li ul.subcarpeta li.subcarpetas li.subcarpetas li.subcarpetas li.subcarpetas li.subcarpetas li.subcarpetas li.subcarpetas li{
+	visibility: hidden;
+	display: none;
+}
+.subcarpetas li ul.subcarpeta li.subcarpetas li.subcarpetas li.subcarpetas li.subcarpetas li.subcarpetas li.subcarpetas li.subcarpetas:hover li{
+	visibility: visible;
+	display: block;
+}
+/*Termina la sección para el árbol del directorio*/
