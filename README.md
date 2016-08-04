@@ -3,7 +3,11 @@ Explorador de directorios
 
 El explorador de directorios muestra el código de un archivo HTML, PHP y JavaScript con la sintaxis remarcada e imágenes de un directorio en el server.
 
-La interfaz escapas de:
+This package can display and browse listing of files in directories.
+It generates a Web based user interface to let the user browse the listing of files in directories and their sub-directories.
+It can also display the contents of given files and highlight the code of PHP files, as well display image files.
+
+La interfaz es capaz de:
 ==================
 
 * Mostrar el árbol de un directorio indicado.
